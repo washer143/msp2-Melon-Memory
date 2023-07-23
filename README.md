@@ -1,39 +1,98 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#  Melon Memory
+# Introduction
 
-Welcome,
+# User Experience (ux)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## User goals:
+# Features
+## Exisiting Features
+## Future Features
+## Colors 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Fonts
+# Manual Testing
 
-## Codeanywhere Reminders
+# Testing User Stories
+# Validation
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+# Browser Compatibility
+The website was tested on the following browsers:
+* Google Chrome
+* Safari
+* Mozilla Firefox
 
-`python3 -m http.server`
+They all appeared as they should.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# Deployment
+The website was deployed using github, these are the steps i followed.
+* Login to github.
+* click on settings tab placed above the green code button.
+* On the left scroll to find "Pages" which will open up a new section.
+* Go to source and select master branch.
+* Once master branch has been selected, the page will give you a link indicating a successful deployment.
+The link to the live website is here: 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
 
-`http_server`
+If you wish to clone the repository these are the steps to take:
+* Go to github repository.
+* Go to the code button located next to the gitpod button and click.
+* Select if you want to clone with https, SSH or Github CLI. 
+* Click button beside url to copy to clipboard
+* Open with github desktop, and follow the prompts to complete the clone. 
+* Alternatively you can open Git Bash and change the current working directory, to where you want a cloned directory.
+* Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+If you want to fork the repository you can click the fork button located towards the top right of the page.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# Responsiveness
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# Bugs
 
-To log into the Heroku toolbelt CLI:
+# Unfixed Bugs
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ # Languages Used
+ * HTML (Html was used for basic)
+ * CSS  (CSS was used for for styling and web)
+ * js (JavaScript was used for interactive content)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+ # Websites & tools
+ * [Wireframes](https://balsamiq.com/) (for wireframes and initial development ideas)
+ * [Coolors](https://coolors.co/) (for color palette inspiration)
+ * [Google Fonts](https://fonts.google.com/) (to choose the right fonts for my project)
+ * [Google Maps](https://www.google.com/maps/) (to provide map for contact page)
+ * [Fontawesome](https://fontawesome.com/)(for icons throughout project)
+ * [GitHub](https://github.com/) (to store my repository)
+ * [Gitpod](https://www.gitpod.io/) (to build my project and write code)
+ * [Git](https://git-scm.com/) (for version control)
+ * [freeconvert](https://www.freeconvert.com/)(to convert my png pictures to webp)
+ * [W3C](https://validator.w3.org/) (Used to validate all my code)
+ 
 
----
+## Credits
 
-Happy coding!
+* [WC3](https://www.w3.org/) helped with star rating on testimonials and progress-bars on about page.
+* [Stack Overflow](https://stackoverflow.com) Used throughout project to troubleshoot.
+* [Youtube](https://youtube.com) Found lots of helpful videos to learn from and simplify code for me, during sticking points throughout the project.
+* [Slack](https://slack.com) Used to reference and compare with other people's work. 
+
+
+
+## Acknowledgements
+
+I'd like to thank my mentor Mitko Bacharov for guiding me in the right direction, and pointing out all the bugs that i needed fixing. The online tutor team were also of great support in helping me de-bug some issues.
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+   
