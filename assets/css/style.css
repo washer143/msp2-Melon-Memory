@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rammetto One';
+}
+
+html {
+    min-height: 100vh;
+  }
+
+  body {
+    background-image: url(../images/background.jpg);
+
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10vh;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    color: #E3A0A5;
+  }
+  
+  .game-score-container {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / -1;
+   
+  }
+
+  .game-score {
+    font-size: 20px;
+    color: #E3A0A5;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+}
+
+.melon-card {
+    height: 100px;
+    width: 100px;
+}
+
+.front-card,
+.back-card {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background: #454545;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+
+ 
+
+
