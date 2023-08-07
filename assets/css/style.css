@@ -36,7 +36,7 @@ html {
   .game-score {
     font-size: 20px;
     color: #E3A0A5;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
   }
 
@@ -47,9 +47,16 @@ html {
 }
 
 .melon-card {
-    height: 100px;
-    width: 100px;
+    height: 105px;
+    width: 105px;
+    transform: scale(1);
 }
+
+.melon-card:active {
+  transform: scale(.97);
+  transition: transform .2s;
+}
+
 
 .front-card,
 .back-card {
@@ -59,10 +66,12 @@ html {
   align-items: center;
   height: 100px;
   width: 100px;
-  background: #454545;
+  background: black;
   border-radius: 10px;
   padding: 4px;
 }
+
+
 
 
  
