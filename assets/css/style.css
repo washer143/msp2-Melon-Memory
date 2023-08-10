@@ -87,7 +87,7 @@ html {
   display: inline-block;
   position: relative;
   margin-top: 10px;
-  margin-right: 2px;
+  margin-right: 4px;
   color: #000000;
   border: 2px solid black;
   padding: 8px 30px;
@@ -96,6 +96,54 @@ html {
   cursor: pointer;
   border-radius: 10px;
 }
+
+.bottom-btn:hover {
+  border: 2px solid #00cc7756;
+  background: #00cc77;
+  color: #0d0d2f;
+  transition: 1s;
+}
+
+.modal-hidden {
+  display: none;
+  background-color: #E3A0A5;
+  z-index: 1;
+  border-radius: 10px;
+  width: 75%;
+  border: 4px solid #000000;
+  position: absolute;
+  top: 37%;
+  left: 12%;
+  height: 228px;
+}
+
+.modal-header{
+  padding-top: 5px;
+
+}
+
+.rules {
+margin: 10px;
+}
+
+.win-modal {
+  background-color: #E3A0A5;
+  z-index: 1;
+  border-radius: 10px;
+  width: 75%;
+  border: 4px solid #000000;
+  position: absolute;
+  top: 37%;
+  left: 12.5%;
+  height: 228px;
+}
+
+.modal-close {
+  align-self: flex-end;
+}
+
+
+
 
 
 

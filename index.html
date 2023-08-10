@@ -116,6 +116,33 @@
    <div>
     <button id="modal-btn" class="bottom-btn">How to Play</button> <button class="bottom-btn">Reset Game</button>
    </div>
+
+   <section>
+        <div class="modal-hidden">
+            <div class="modal-header">
+                <h2 class="title">How To Play</h2>
+            <ul class="rules">
+                <li>Click on any card to reveal a character.</li>
+                <li>Only two cards can be flipped at one time.</li>
+                <li>Match any two characters, until you have 8 pairs to complete the game.</li>
+                <li>Restart the game to beat your score.</li>
+            </ul>
+            <span class="modal-close">X</span>
+        </div>
+   </section>
+
+   <section class="win-modal">
+    <div class="modal">
+    
+      <div class="modal-content">
+        <h2>Well Done!</h2>
+        <br>
+        <p>You made <span id="finalMove"> </span> moves </p>
+        <p>in the <span id="totalTime"> </span> </p>
+        <p>Add your name and score to the leaderboard and beat your score!</p>
+        <button class="bottom-btn leaderboard">Leaderboard</button><span class="modal-close">X</span>
+    </div>
+  </section>
   
     <script src="assets/js/script.js"></script>
     
