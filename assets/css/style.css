@@ -45,6 +45,8 @@ html {
     display: grid;
     grid-template-columns: repeat(4, auto);
     justify-content: center;
+    grid-gap: 5px;
+    perspective: 1000px;
 }
 
 .memory-card {
@@ -53,6 +55,8 @@ html {
     height: 105px;
     width: 105px;
     transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
 }
 
 .memory-card:active {
@@ -72,11 +76,13 @@ html {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 100%;
   background: black;
   border-radius: 10px;
   padding: 4px;
+  overflow: hidden;
+  backface-visibility: hidden;
 }
 
 .front-card {
@@ -123,10 +129,11 @@ html {
 }
 
 .rules {
-margin: 10px;
+  margin: 10px;
 }
 
 .win-modal {
+  display: none;
   background-color: #E3A0A5;
   z-index: 1;
   border-radius: 10px;
