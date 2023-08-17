@@ -1,9 +1,19 @@
 const cards = document.querySelectorAll('.memory-card');
+const htpModal = document.getElementsById('.htp-modal');
+const winModal = document.getElementsById('.win-modal');
+const moves = document.querySelector('.moves');
+const timer = document.querySelector('.timer');
+const modalClose = document.getElementsByClassName('.modal-close');
+const bottomButton = document.getElementsByClassName('.bottom-button');
+const leaderBoard = document.getElementsByClassName('.leaderboard');
 
 
 let FlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+
+
+
 
 function flipCard() {
   if (lockBoard) return;
