@@ -18,11 +18,11 @@
         <div class="card-container">
             <div class="game-score-container">
                  <div onclick="flipCard()" class="game-score">
-                     <span class="timer">Timer 0:00</span>
+                     <span id="timer">Timer 0:00</span>
                  </div>
    
             <div class="game-score">Moves
-                <span class="moves">0</span>
+                <span id="moves">0</span>
             </div>
         </div>
 
@@ -116,7 +116,7 @@
    </div>
 
    <div>
-    <button id="modal-btn" class="bottom-btn">How to Play</button> <button class="bottom-btn">Reset Game</button>
+    <button id="modal-btn" class="bottom-btn">How to Play</button> <button onclick="reset()" id="reset-btn" class="bottom-btn">Reset Game</button>
    </div>
 
    <section>
@@ -142,7 +142,7 @@
         <p>You made <span id="finalMove"> </span> moves </p>
         <p>in the <span id="totalTime"> </span> </p>
         <p>Add your name and score to the leaderboard and beat your score!</p>
-        <button class="bottom-btn leaderboard">Leaderboard</button><span class="modal-close">X</span>
+        <button id="leaderboard-btn" class="bottom-btn">Leaderboard</button><span class="modal-close">X</span>
     </div>
   </section>
   

@@ -132,7 +132,7 @@ html {
   margin: 10px;
 }
 
-.win-modal {
+#win-modal {
   display: none;
   background-color: #E3A0A5;
   z-index: 1;
