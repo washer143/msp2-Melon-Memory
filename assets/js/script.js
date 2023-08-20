@@ -1,12 +1,12 @@
 const cards = document.querySelectorAll('.memory-card');
-//const htpModal = document.getElementsById('.htp-modal');
-//const winModal = document.getElementsById('.win-modal');
-//const modalBtn = document.getElementsByClassName('.modal-btn');
-//const leaderBoard = document.getElementsById('.leaderboard-btn');
+const htpModal = document.querySelector('#htp-modal');
+const winModal = document.querySelector('#win-modal');
+//const leaderBoard = document.getElementsById('#leaderboard-btn');
 const moveContainer = document.querySelector('#moves');
 const timerContainer = document.querySelector('#timer');
-//const modalClose = document.getElementsByClassName('.modal-close');
+const modalClose = document.querySelector('.modal-close');
 const allPairsMatched = 8;
+
 
 let FlippedCard = false;
 let lockBoard = false;
@@ -15,8 +15,9 @@ let moves = 0;
 let matchedPair = 0;
 let timeResult = "";
 let gameStart = false;
-
-
+let minutes = 0;
+let seconds = 0;
+let timeStart = false;
 
 
 cards.forEach(card => card.addEventListener('click', flipCard));
@@ -82,21 +83,35 @@ function noMatch (){
      moveContainer.innerHTML = moves;
  }
 
+ timerContainer.innerHTML = "Clock " + minutes + " : " + seconds;
+ 
+ function timer() {
+     clock = setInterval(function() {
+         seconds++;
+         if (seconds === 59) {
+             minutes++;
+             seconds = 0;
+         }
+         timerContainer.innerHTML = "Clock " + minutes + " : " + seconds;
+     }, 1000);
+ }
+ 
+ function stopTime() {
+     clearInterval(Clock);
+ }
+
+
+
 function resetBoard() {
   [FlippedCard, lockBoard] = [false, false];
   [firstCard, secondCard] = [null, null];
 }
 
-(function shuffle() {
-  cards.forEach(card => {
-    let randomPos = Math.floor(Math.random() * 16);
-    card.style.order = randomPos;
-  });
-})();
-
-function timer() {
-  
+function gameWon() {
+  stopTime();
+  showWinModal();
 }
-  
+
+
 
 
