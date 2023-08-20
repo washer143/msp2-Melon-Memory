@@ -1,9 +1,10 @@
 const cards = document.querySelectorAll('.memory-card');
-const htpModal = document.querySelector('#htp-modal');
-const winModal = document.querySelector('#win-modal');
+const htpModal = document.getElementById('htp-modal');
+const winModal = document.getElementById('modal');
 //const leaderBoard = document.getElementsById('#leaderboard-btn');
-const moveContainer = document.querySelector('#moves');
-const timerContainer = document.querySelector('#timer');
+const moveContainer = document.getElementById('moves');
+const timerContainer = document.getElementById('timer');
+const modalBtn = document.getElementById('modal-btn');
 const modalClose = document.querySelector('.modal-close');
 const allPairsMatched = 8;
 
@@ -22,7 +23,17 @@ let timeStart = false;
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
-
+modalBtn.addEventListener('click', showHtpModal); 
+modalClose.addEventListener('click', closeHtpModal); 
+ 
+ 
+ function showHtpModal() {
+     htpModal.style.display = "block";
+ }
+ 
+ function closeHtpModal() {
+     htpModal.style.display = "none";
+ }
 
 function flipCard() {
   if (!gameStart) {
@@ -114,4 +125,10 @@ function gameWon() {
 
 
 
+(function shuffle() {
+  cards.forEach(card => {
+    let randomPos = Math.floor(Math.random() * 16);
+    card.style.order = randomPos;
+  });
+})();
 
