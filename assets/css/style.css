@@ -13,7 +13,7 @@ html {
   }
 
   body {
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/background.webp);
 
   }
 
@@ -161,6 +161,12 @@ https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
   margin: auto;
 }
 
+.card-container {
+  width: 100vw;
+  grid-gap: 3px;
+  margin: 45px auto;
+}
+
 }
 
 @media only screen and (max-width: 540px) {
@@ -176,7 +182,7 @@ https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
  }
   h1 {
     font-size: 40px;
-    padding-top: 25%;
+    margin-top: 50px;
   }
 
   h2 {
