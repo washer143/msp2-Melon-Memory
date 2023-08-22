@@ -8,9 +8,12 @@
     <meta name="keywords" content="memory game, flip card memory game, flip card game, game, flip card">
     <meta name="author" content="Ryan Washer">
     <link rel="stylesheet" href="assets/css/style.css">
-
+   
+    <!---------header-->
     <title>Melon Memory</title>
 </head>
+
+<!-------------game container-->
 <body>
     <h1 class="header">Melon Memory</h1> 
     <div class="container">
@@ -25,10 +28,7 @@
             </div>
         </div>
 
-    
-    
-
-    
+    <!--------------game cards div-->
 
         <div class="memory-card" data-image="watermelon-1">
            <img class="front-card" src="assets/images/basketball-watermelon.png" alt="watermelon-1">
@@ -116,12 +116,12 @@
             <img class="back-card" src="assets/images/backcard-watermelon.jpg" alt="card-back">
         </div>
    </div>
-
+    <!-----------------reset game -->
    <div>
        <button id="modal-btn" class="bottom-btn">How to Play</button> 
        <button id="reset-btn" class="bottom-btn" onclick="reset()">Reset Game</button>
    </div>
-
+    <!----------------how to play modal-->
    <section>
         <div id="htp-modal" class="htp-modal">
             <div class="modal-header">
@@ -135,7 +135,7 @@
             <span class="modal-close">X</span>
         </div>
    </section>
-
+    <!---------------------pop up win modal once game is won-->
    <section id="win-modal">
     <div class="modal" id="modal">
       <div class="modal-content">

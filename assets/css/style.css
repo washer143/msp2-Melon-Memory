@@ -31,7 +31,6 @@ html {
     display: flex;
     justify-content: space-between;
     grid-column: 1 / -1;
-   
   }
 
   .game-score {
@@ -47,9 +46,9 @@ html {
     justify-content: center;
     grid-gap: 5px;
     perspective: 1000px;
-}
-
-.memory-card {
+  }
+  
+  .memory-card {
     position: relative;
     cursor: pointer;
     height: 105px;
@@ -110,6 +109,7 @@ html {
   transition: 1s;
 }
 
+/* ----------- how to play modal */
 #htp-modal {
   display: none;
   background-color: #E3A0A5;
@@ -132,6 +132,7 @@ html {
   margin: 10px;
 }
 
+/* ------------ win modal pop up */
 #modal {
   display: none;
   background-color: #E3A0A5;
@@ -149,20 +150,8 @@ html {
   cursor: pointer;
 }
 
-.storage {
-  display: none;
-  background-color: #E3A0A5;
-  z-index: 1;
-  border-radius: 10px;
-  width: 25%;
-  border: 4px solid #000000;
-  position: absolute;
-  top: 37%;
-  left: 37.5%;
-  height: 240px;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* code for memory-card and frontcard and backcard  have been adapted from this tutorial
+https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
 
 
 
