@@ -12,19 +12,21 @@
     <title>Melon Memory</title>
 </head>
 <body>
-    <h1 class="header">Melon Memory</h1>
-    
+    <h1 class="header">Melon Memory</h1> 
     <div class="container">
         <div class="card-container">
             <div class="game-score-container">
                  <div onclick="flipCard()" class="game-score">
-                     <span id="timer">Timer 0:00</span>
+                     <span id="timer">Clock 0:00</span>
                  </div>
    
             <div class="game-score">Moves
                 <span id="moves">0</span>
             </div>
         </div>
+
+    
+    
 
     
 
@@ -116,7 +118,8 @@
    </div>
 
    <div>
-    <button id="modal-btn" class="bottom-btn">How to Play</button> <button id="reset-btn" class="bottom-btn" onclick="reset()" >Reset Game</button>
+       <button id="modal-btn" class="bottom-btn">How to Play</button> 
+       <button id="reset-btn" class="bottom-btn" onclick="reset()">Reset Game</button>
    </div>
 
    <section>
@@ -135,16 +138,18 @@
 
    <section id="win-modal">
     <div class="modal" id="modal">
-    
       <div class="modal-content">
         <h2>Well Done!</h2>
         <br>
-        <p>You made <span id="finalMove"> </span> moves </p>
-        <p>in the <span id="totalTime"> </span> </p>
+        <p>You made <span id="total-moves"> </span> moves </p>
+        <p>in the <span id="total-time"> </span> </p>
         <p>Add your name and score to the leaderboard and beat your score!</p>
-        <button id="leaderboard-btn" class="bottom-btn">Leaderboard</button><span class="modal-close">X</span>
-    </div>
+        <br>
+        <span class="modal-close">X</span>
+      </div>
+   </div>
   </section>
+
   
     <script src="assets/js/script.js"></script>
     
