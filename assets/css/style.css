@@ -154,6 +154,8 @@ html {
 https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
 
 /* media queries*/
+
+/* extra small screen size */
 @media only screen and (max-width: 420px) {
 #htp-modal,
 #modal {
@@ -164,11 +166,11 @@ https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
 .card-container {
   width: 100vw;
   grid-gap: 3px;
-  margin: 45px auto;
+  margin: 25px auto;
 }
 
 }
-
+/* small screen */
 @media only screen and (max-width: 540px) {
 
   #htp-modal,
@@ -181,8 +183,8 @@ https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
   padding: 2px;
  }
   h1 {
-    font-size: 40px;
-    margin-top: 50px;
+    font-size: 36px;
+
   }
 
   h2 {
@@ -220,7 +222,7 @@ https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
  
 }
 
-/* tablet size */
+/* average tablet size */
 @media (min-width: 768px) {
 
   #htp-modal,
@@ -241,28 +243,7 @@ https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
 }
 
 
-
-/* tablet size */
-@media (min-width: 768px) {
-
-  #htp-modal,
-  #modal {
-  height: auto;
-  margin: auto;
-}
-
-  h1{
-    margin-top: 17%;
-  }
-  
-  .card-container {
-    width: 100vw;
-    grid-gap: 5px;
-    margin: 35px auto;
-  }
-}
-
-/**/
+/* larger tablet and small laptop */
 @media (min-width: 1024px){
   
   #htp-modal,
@@ -279,7 +260,8 @@ https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
     margin: 0 auto;
   }
 }
-  
+
+/* large laptop and desktop */
 @media (min-width: 1462px){
 
   #htp-modal,

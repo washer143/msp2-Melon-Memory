@@ -147,13 +147,13 @@ window.onclick = function(event) {
 };
 
 /* This function will randomize card placement once game is started or reset code adapted from 
-https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org*/
+https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
 function shuffle() {
   cards.forEach(cards => {
-    let random = Math.floor(Math.random() * 16);
-    cards.style.order = random;
+    let randomPosition = Math.floor(Math.random() * 16);
+    cards.style.order = randomPosition;
   });
-};
+}
 
 /* This will activate reset button to restart the game */
 function reset() {
