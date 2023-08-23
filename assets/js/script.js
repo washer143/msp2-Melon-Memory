@@ -106,7 +106,7 @@ function noMatch (){
  timerContainer.innerHTML = "Time " + minutes + " : " + seconds;
  
  function timer() {
-     clock = setInterval(function() {
+    let clock = setInterval(function() {
          seconds++;
          if (seconds === 59) {
              minutes++;

@@ -1,5 +1,11 @@
 #  Melon Memory
+ ![responsive-media](screenshots/am-i-responsive.png)
+
 # Introduction
+This project is a classic memory game, where you click one card to reveal a character and you must choose another card to reveal the same character, if its not the same character you must restart and try to remember where those characters are to match the same two characters. When two characters are a match they will stay is position until all characters have been paired, with the final amount pairs being 8, revealing a time and the amount of moves it took to complete the game.
+
+# Design
+The goal of the game was to create and appealing and fun interactive game that the user can restart and play as many times as they wish. The game was designed with young users in mind targeting young children to adolescents, an emphasis on how fast and how many little moves you can do it in was used target the older age range, adding a competitive element to game.
 
 # User Experience (ux)
 
@@ -8,6 +14,7 @@
 ## Exisiting Features
 ## Future Features
 ## Colors 
+
 
 ## Fonts
 # Manual Testing
