@@ -18,8 +18,10 @@ let clock;
 let minutes = 0;
 let seconds = 0;
 let timeStart = false;
+
 /* listens for click to flip cards */
-cards.forEach(card => card.addEventListener('click', flipCard));
+cards.forEach(cards => cards.addEventListener('click', flipCard));
+
 /* event listener to listen for click on how to play modal */
 modalBtn.addEventListener('click', showHtpModal);
 modalClose.addEventListener('click', closeHtpModal);
@@ -122,12 +124,14 @@ window.onclick = function(event) {
 };
 /* This function will randomize card placement once game is started or reset code adapted from 
 https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
+shuffle();
 function shuffle() {
 	cards.forEach(cards => {
-		let randomPosition = Math.floor(Math.random() * 16);
-		cards.style.order = randomPosition;
+	  let ramdom = Math.floor(Math.random() * 12);
+	  cards.style.order = ramdom;
 	});
-}
+  }
+
 /* This will activate reset button to restart the game */
 function reset() {
 	setTimeout(() => {
