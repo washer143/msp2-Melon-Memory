@@ -47,6 +47,8 @@ h1 {
 	perspective: 1000px;
 }
 
+/* code has been adapted from this tutorial
+https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
 .memory-card {
 	position: relative;
 	cursor: pointer;
@@ -66,6 +68,8 @@ h1 {
 	transform: rotateY(180deg);
 }
 
+/* code has been adapted from this tutorial
+https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
 .front-card,
 .back-card {
 	position: absolute;
@@ -147,7 +151,7 @@ h1 {
 	cursor: pointer;
 }
 
-/* code for memory-card, front-card/back-card  have been adapted from this tutorial
+/* code has been adapted from this tutorial
 https://www.youtube.com/watch?v=ZniVgo8U7ek FreeCodeCamp.org */
 
 /* media queries*/

@@ -152,12 +152,12 @@ The website was tested on the following browsers:
 # Responsive Design
 |Device  | Screenshot  | Screenshot    | Screenshot   | Assessment  |   
 |---      |---|---|---|---| 
-|Galaxy fold  | <img src="screenshots/glaxy-fold-main.png" width="93%">  |  <img src="screenshots/galaxy-fold-htp.png">  |  <img src="screenshots/galaxy-fold-wm.png" width="98%"> |   |   
-|Ipad air  | <img src="screenshots/ipad-air.png" width="94%">   |  <img src="screenshots/ipad-air-htp.png">  |  <img src="screenshots/ipad-air-wm.png" >  |   |   
-| Nesthub max | <img src="screenshots/nesthub-max.png" width="93%">  | <img src="screenshots/nesthub-max-htp.png">   | <img src="screenshots/nesthub-max-wm.png">   |   
-|Samsung galaxy s8 | <img src="screenshots/samsung-galaxy-s8.png" width="96.5%">   | <img src="screenshots/samsung-galaxy-s8-htp.png" width="105%">   | <img src="screenshots/samsung-galaxy-s8-wm.png" width="98%" >   |   |   
-|Surface pro  | <img src="screenshots/surface-pro-7.png" width="93%">   | <img src="screenshots/surface-pro-7-htp.png" width="97%">   | <img src="screenshots/surface-pro-7-wm.png">  |   |   
-|Desktop dev/tools  | <img src="screenshots/desktop-main.png">   | <img src="screenshots/desktop-htp.png">   | <img src="screenshots/desktop-wm.png">   |   |   
+|Galaxy fold  | <img src="screenshots/glaxy-fold-main.png" width="93%">  |  <img src="screenshots/galaxy-fold-htp.png">  |  <img src="screenshots/galaxy-fold-wm.png" width="98%"> | works as expected  |   
+|Ipad air  | <img src="screenshots/ipad-air.png" width="94%">   |  <img src="screenshots/ipad-air-htp.png">  |  <img src="screenshots/ipad-air-wm.png" >  | Noticeable difference in between modal height|   
+| Nesthub max | <img src="screenshots/nesthub-max.png" width="93%">  | <img src="screenshots/nesthub-max-htp.png">   | <img src="screenshots/nesthub-max-wm.png">   |   Works as expected |
+|Samsung galaxy s8 | <img src="screenshots/samsung-galaxy-s8.png" width="96.5%">   | <img src="screenshots/samsung-galaxy-s8-htp.png" width="105%">   | <img src="screenshots/samsung-galaxy-s8-wm.png" width="98%" >   |  Works as expected  |   
+|Surface pro  | <img src="screenshots/surface-pro-7.png" width="93%">   | <img src="screenshots/surface-pro-7-htp.png" width="97%">   | <img src="screenshots/surface-pro-7-wm.png">  |  Works as expected  |   
+|Desktop dev/tools  | <img src="screenshots/desktop-main.png">   | <img src="screenshots/desktop-htp.png">   | <img src="screenshots/desktop-wm.png">   |  Works as expected  |   
 
 # User Story Testing
 | User story  | Screenshot  |
