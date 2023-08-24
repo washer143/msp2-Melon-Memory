@@ -183,6 +183,10 @@ The website was tested on the following browsers:
 
 * Bug found with the how to play modal not displaying when clicked. This was fixed by calling "modal-btn" and not "htp-modal" in my event listener.  
 
+## Unfixed Bugs
+
+There are no remaining bugs that i am aware of.
+
 
 # Deployment
 The website was deployed using github, these are the steps i followed.
